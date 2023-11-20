@@ -180,7 +180,6 @@ def SolveLatestWordle():
     AppendSolvedData()
 
 
-    
 #list to hold the data related to solving the wordles
 solvedData = []
 
@@ -190,8 +189,6 @@ averageGuesses = 0
 wordsNotSolved = []
 
 if solveAll:
-
-
 
     #Get the raw historical data from file
     f1 = open('WordHistoricalData.csv', 'r')
@@ -203,12 +200,8 @@ if solveAll:
     #set the index to 0
     currentDataSetIndex = 0
 
-
     #create the WordleBots to solve for solutions.
     botSolvers = []
-
-
-
 
     AddHistoricalDataToSolvedDataSet()
 
